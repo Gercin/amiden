@@ -5,7 +5,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
 
 use Bitrix\Main\Application,
     Bitrix\Main\Web\Uri,
-    Bquadro\Options,
+    //Bquadro\Options,
     Bitrix\Main\Loader;
 
 $request = Application::getInstance()->getContext()->getRequest();
@@ -29,6 +29,8 @@ if(defined('ERROR_404') && ERROR_404 == 'Y') {
     $not404 = false;
 }
 
+/*
+
 $arMainOptions = [];
 
 $arHLUFCodes = [
@@ -46,3 +48,4 @@ if ($arMainOptions['UF_PHONE']['0'] != '+') {
     $arMainOptions['UF_PHONE_FORMAT'] = substr_replace($arMainOptions['UF_PHONE_FORMAT'], '+7', 0, 1);
 }
 $arMainOptions['UF_PRIVACY_POLICY_FILE_PATH'] = CFile::GetPath($arMainOptions['UF_PRIVACY_POLICY']);
+*/
