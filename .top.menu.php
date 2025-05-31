@@ -23,4 +23,11 @@ $aMenuLinks = Array(
 		Array(), 
 		"" 
 	),
+	Array(
+		"Случайный товар", 
+		"random-element/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
 );

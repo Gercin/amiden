@@ -50,7 +50,7 @@ foreach ($filterData as $k => $v) {
 	$filterData['NAME'] = "%".$filterData['FIND']."%";
 }
 
-$filterData['IBLOCK_ID'] = 1;
+$filterData['IBLOCK_ID'] = IB_ID_NEWS;
 $filterData['ACTIVE'] = "Y";
 
 $columns = [];

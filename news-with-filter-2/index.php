@@ -7,7 +7,7 @@ $APPLICATION->SetTitle("Новости с фильтром 2");
 	array(
 		"FILTER_NAME" => "filterData",
 		"IBLOCK_TYPE" => "news",
-		"IBLOCK_ID" => "1",
+		"IBLOCK_ID" => IB_ID_NEWS,
 		"NEWS_COUNT" => "5",
 		"USE_SEARCH" => "N",
 		"USE_RSS" => "Y",
